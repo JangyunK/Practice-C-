@@ -1,1 +1,1 @@
-# Practice-C-
+# This repository is for posting C++ code practice.
