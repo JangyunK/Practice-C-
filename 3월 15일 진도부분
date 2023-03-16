@@ -1,0 +1,77 @@
+//3월 15일 진도부분
+#include <iostream>
+/*
+20페이지 (1) C-스트링 방식
+
+using namespace std;
+int main() {
+	cout << "이름을 입력하세요: ";
+
+		char name[11]; //한글은 5개 글자, 영문은 10까지 저장할 수 있다
+	cin >> name; // 키보드로부터 문자열을 읽는다
+
+	cout << "이름은" << name << "입니다\n"; // 이름을 출력한다
+}
+*/
+
+// C-스트링 방식 : 공백 없는 예제 ppt 21페이지
+/*#include<cstring>
+using namespace std;
+
+int main() {
+	char password[11];
+	cout << "프로그램을 종료하려면 암호를 입력하세요." << endl;
+	while (true) {
+		cout << "암호>>";
+		cin >> password;
+		if (strcmp(password, "C++") == 0) {
+			cout << "프로그램을 정상 종료합니다." << endl;
+			break;
+		}
+		else
+			cout << "암호가 틀립니다." << endl;
+	}
+}*/
+
+//교수님 cin 설명 사항 cin과 cin.getline(arr, 5); 차이 점
+
+/*using namespace std;
+
+int main()
+{
+	char arr[5];
+
+	cout << "문자열을 입력하세요\n";
+	//cin >> arr;
+	cin.getline(arr, 5);
+
+	cout << "***" << arr << "***\n";
+
+	return 0;
+}*/
+
+// 2장 확인문제 6장 과제임
+
+#include<cstring>
+using namespace std;
+
+int main() {
+
+	char a[100] = "안녕하세요?";
+	char b[100] = "날씨가 참 좋군요.";
+	char c[100] = "안녕히 계세요!";
+
+	cout << "함수 사용" << endl;
+	/* (1) 한줄코딩: cstring에서 제공하는 함수 사용해서 문자열 길이 출력*/
+
+
+	cout << "반복문으로 계산" << endl;
+	// null을 발견할 때까지 돌리기 cout 값을 출력해주는 것이다.
+	/*(2) 여러 줄 코딩: cstring에서 제공하는 함수 사용하지 않고, string 클래스도 사용하지 않고, 그냥 반복문을 사용해서 문자열 길이 출력*/
+	while(true)
+	{
+		
+	}
+}
+
+//2장 확인문제 7번
