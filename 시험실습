@@ -1,0 +1,11 @@
+#include <stdio.h>
+#define DIA  7
+
+int main(void) {
+
+	double pla  = 11.4;
+
+	printf("DIA = %.2lf\n", (pla * DIA));
+
+	return 0;
+}
