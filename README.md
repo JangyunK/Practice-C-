@@ -1,1 +1,1 @@
-# This repository is for posting C++ code practice.
+y is for posting C++ code practice.
